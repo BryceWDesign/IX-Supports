@@ -1,0 +1,25 @@
+{
+  "name": "ix-supports",
+  "version": "0.0.1",
+  "description": "🧩 UX/UI motion + prototyping desktop app built with Electron + React + Vite",
+  "author": "Bryce Wooster",
+  "license": "MIT",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "electron .",
+    "build": "vite build && electron-builder",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
